@@ -1,0 +1,395 @@
+:root{
+    --BLUE-COLOR: RGB(0, 104, 255);
+    --MID-BLUE-COLOR: RGB(145, 189, 215);
+    --DARK-BLUE-COLOR: RGB(2, 27, 58);
+    --GREEN-COLOR: RGB(183, 219, 40);
+}
+
+body{
+    background-color: #eee;
+}
+
+::selection{
+    background-color: transparent;
+    color: var(--MID-BLUE-COLOR);
+}
+
+a{
+    transition: .4s;
+}
+
+a:hover{
+    opacity: .6;
+    text-decoration: none;
+}
+
+/* Reset Bootstrap */
+.container{
+    max-width: 100%;
+}
+
+/* Barre de navigation */
+#head_bar{
+    position: fixed;
+    transition: 1.0s;
+}
+
+header#home{
+    background-image: url("../images/hero_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.header-link{
+    font-size: 26px;
+    padding: 0 50px;
+}
+
+.header-link:nth-child(1){
+    border-right: 1px solid var(--BLUE-COLOR);
+}
+
+/* Home */
+
+#banniere_defile{
+    display: flex;
+    align-items: center;
+}
+
+#BeFit_description .left_side{
+    background-image: url("../images/visuel_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+#BeFit_description .right_side{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    background-color: var(--DARK-BLUE-COLOR);
+}
+
+/* Avis */
+
+#avis{
+    transition: .4s;
+}
+
+#avis_table{
+    border-collapse: collapse;
+    font-size: 28px;
+}
+
+#avis_table h4{
+    font-size: 34px;
+}
+
+#avis_table tr{
+    border: 1px solid black;
+}
+
+#avis_table td.nbl, #avis_table tr.nbl{
+    border-left: none;
+}
+
+#avis_table td.nbr, #avis_table tr.nbr{
+    border-right: none;
+}
+
+#avis_table tr:nth-of-type(1) td{
+    border-top: 1px solid transparent;
+}
+#avis_table tr:nth-of-type(3) td{
+    border-bottom: 1px solid transparent;
+}
+
+#avis_table td{
+    min-height: 10px;
+    border: 1px solid black;
+    padding: 16px;
+}
+
+#avis_table button{
+    background-color: transparent;
+    border: none;
+    font-size: 36px;
+    outline: none;
+}
+
+#rejoindre{
+    display: block;
+    margin: 60px auto;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 128px;
+    color: black;
+}
+
+#rejoindre:hover{
+    opacity: 1;
+    background-color: gray;
+    color: white;
+}
+
+/* Notre Histoire */
+#history{
+    background-color: var(--DARK-BLUE-COLOR);
+    border-bottom: 1px solid white;
+}
+
+#history .left_side{
+    border-right: 1px solid white;
+}
+
+#history img{
+    width: 100%;
+}
+
+#history p{
+    padding: 64px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Nos programmes */
+
+#programmes img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.yellow_separator{
+    border: 1px solid var(--GREEN-COLOR);
+    width: 90%;
+}
+
+#banner_prog{
+    width: 100%;
+}
+
+/* Inscription */
+
+#connexion_form{
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+}
+
+#connexion_form input{
+    font-size: 24px;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 16px 0;
+    background-color: transparent;
+    outline: none;
+    width: 50%;
+}
+
+#connexion_form small{
+    color: var(--BLUE-COLOR);
+    text-decoration: underline 2px solid var(--BLUE-COLOR);
+    text-underline-offset: 2px;
+}
+
+#connexion_form button, #connect_button_form{
+    background-color: RGB(204,255,0);
+    padding: 16px 64px;
+    width: fit-content;
+    border: none;
+    outline: none;
+    font-size: 26px;
+    border-radius: 128px;
+}
+
+#connect_button_form{
+    display: block;
+    margin: auto;
+}
+
+#connexion_form.inscription{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#connexion_form.inscription input{
+    width: 80%;
+}
+
+/* Footer */
+
+footer table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+footer table tr, footer table td{
+    border: 2px solid lightgray;
+}
+
+.footer_cell{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    min-height: 40vh;
+}
+footer address{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+}
+footer address a{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    color: black;
+    border-bottom: 1px solid lightgray;
+    font-size: 20px;
+}
+
+footer .display-5{
+    font-size: 22px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer tr.nb, footer tr.nb td{
+    border-top: none;
+}
+
+footer ul li{
+    font-size: 26px;
+    margin: 16px 0;
+}
+
+button.green{
+    background-color: RGB(204,255,0);
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+#footer_link{
+    display: block;
+    margin: auto;
+}
+
+footer img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+/* Modifier */
+.text-blue{
+    color: var(--BLUE-COLOR);
+}
+
+.display-5{
+    font-size: 28px;
+}
+
+.custom_link_main{
+    display: block;
+    margin: auto;
+    border: 2px solid var(--BLUE-COLOR);
+    border-radius: 128px;
+    transition: .4s;
+    background-color: transparent;
+}
+
+.custom_link_main:hover{
+    opacity: 1;
+    background-color: var(--BLUE-COLOR);
+    text-decoration: none;
+}
+
+#start_programm_2{
+    border: none;
+    outline: none;
+}
+
+/* Modal */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid var(--BLUE-COLOR);
+    width: 80%;
+  }
+
+  .modal-content h1{
+    color: var(--BLUE-COLOR);
+  }
+  
+  #top_modal{
+    border-bottom: 1px solid black;
+  }
+
+  #questionnaire_form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#questionnaire_form span.input{
+    margin: auto;
+    font-size: 24px;
+}
+
+#questionnaire_form input{
+    width: 20px;
+    height: 20px;
+}
+
+#buttons button{
+    background-color: var(--DARK-BLUE-COLOR);
+    padding: 16px 48px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 128px;
+}
+
+  /* The Close Button */
+  .close {
+    color: var(--BLUE-COLOR);
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
