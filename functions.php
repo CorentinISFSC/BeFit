@@ -1,7 +1,10 @@
 <?php
 add_theme_support('title-tag');
 add_theme_support('menus'); 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
 register_nav_menu('header', 'En tête du menu');
 
 

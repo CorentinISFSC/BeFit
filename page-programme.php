@@ -1,4 +1,8 @@
 <?php get_header(); ?>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
@@ -47,6 +51,32 @@
         endswitch;
         ?>
     </div>
+<<<<<<< HEAD
+</div>
+
+<div class="container">
+    <h1 id="programme_title" class="ml-md-5 mr-md-5 mt-3"><img src="<?php echo get_template_directory_uri(); ?>/images/programme_titre.png" alt="Titre programme" class="img-fluid" width="500"></h1>
+    <h2 id="programme_week" class="text-blue mr-md-5">Semaine 1</h2>
+</div>
+
+<br>
+
+<div class="container-fluid" id="programmes">
+    <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/prog_cardio.png" alt="Photo Programme" class="img-fluid" loading="lazy">
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/prog_bas_du_corps.png" alt="Photo Programme" class="img-fluid" loading="lazy">
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/prog_haut_du_corps.png" alt="Photo Programme" class="img-fluid" loading="lazy">
+        </div>
+    </div>
+    <br>
+    <hr class="yellow_separator">
+    <br>
+=======
 
 </div>
 
@@ -68,6 +98,7 @@
     </div>
     <br>
     <hr class="yellow_separator"><br>
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
 </div>
 
 <br><br>

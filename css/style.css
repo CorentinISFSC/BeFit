@@ -46,10 +46,17 @@ a:hover{
 }
 
 #home {
+<<<<<<< HEAD
+    background-image: url("../images/Photo-page-daccueil-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+=======
     background-image: url("../images/hero_banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 80vh;
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
     margin-top: -58px;
 }
 
@@ -65,10 +72,24 @@ a:hover{
     }
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 992px) {
+    #BeFit_description.my-row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .navbar-brand img {
     height: 48px
 }
 
+=======
+.navbar-brand img {
+    height: 48px
+}
+
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
 
 
 /* Home */
@@ -76,10 +97,18 @@ a:hover{
 #titre_BeFit{
     font-size: 60px;
     font-weight: 400;
+<<<<<<< HEAD
+    color:white;
+=======
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
 }
 
 #desc_BeFit{
     line-height: 30px;
+<<<<<<< HEAD
+    text-align: justify;
+=======
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
 }
 
 #banniere_defile{
@@ -99,10 +128,23 @@ a:hover{
 }
 #BeFit_description .right_side{
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: space-evenly;
     background-color: var(--DARK-BLUE-COLOR);
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #asyncExec {
+    font-size: 77px;
+    color: black;
+  }
+  
+  .highlight {
+    color: #0068ff;
+  }
 
 /* Avis */
 
@@ -184,6 +226,10 @@ a:hover{
     padding: 28px 90px;
     font-weight: 600;
     font-size: 22px;
+<<<<<<< HEAD
+    text-decoration: none;
+=======
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
 }
 
 #rejoindre:hover{
@@ -254,7 +300,7 @@ a:hover{
 
 .yellow_separator{
     border: 1px solid var(--GREEN-COLOR);
-    width: 90%;
+    width: 100%;
 }
 
 #banner_prog{
@@ -296,19 +342,24 @@ a:hover{
 }
 
 #connexion_form button, #connect_button_form{
-    background-color: RGB(204,255,0);
+    background-color: RGB(204,255,0); 
     padding: 16px 64px;
     width: fit-content;
     border: none;
     outline: none;
     font-size: 26px;
     border-radius: 128px;
+    color: black;
+    text-decoration: none;
 }
 
 #connect_button_form{
     display: block;
     margin: auto;
+    color: black;
+    text-decoration: none;
 }
+
 
 #connexion_form.inscription{
     display: grid;
@@ -449,6 +500,18 @@ footer ul li{
     font-weight: 400;
 }
 
+<<<<<<< HEAD
+#liens_juridiques {
+    color:#000;
+    text-decoration: none;
+}
+
+.my_btn {
+    background: #CCFF00;
+}
+
+=======
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
 /* Modifier */
 .text-blue{
     color: var(--BLUE-COLOR);

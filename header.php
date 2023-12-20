@@ -23,6 +23,12 @@
                         'container' => false, // permet de retirer mon container
                         'menu_class' => 'navbar-nav ms-auto' // la classe que je veux dans mon <ul></ul>
                     ]); ?>
+<<<<<<< HEAD
+                </div>
+            </div>
+        </nav>
+    </header>
+=======
                     <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -36,3 +42,4 @@
         </nav>
     </header> 
 </body>
+>>>>>>> 7fd97cbe8ecc49aa8abef5ca9594c363874e32a9
